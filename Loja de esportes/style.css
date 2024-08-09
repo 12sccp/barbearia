@@ -195,7 +195,7 @@ td, th {
 }
 
 .utensilios {
-	width: 150px;
+	width: 155px;
     float: left;
 	margin: 0 20px 20px 0;
 
@@ -233,7 +233,7 @@ td, th {
 }
 
 .lista-beneficios{
-	width: 40%;
+	width: 0%;
 	display: inline-block;
 	vertical-align: top;
 }
