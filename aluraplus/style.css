@@ -10,22 +10,24 @@
     --cor-do-fundo: #00030C;
 }
 /* utilizando as variaveis */
-body{
+body {
     background-color: var(--cor-do-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte_principal);
 }
-.principal{
+.principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
-    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
 }
-.container{
+.container {
     height: 100vh;
     display: grid;
+    grid-template-columns: 50% 50%;
 }
-.container_botao{
+.container_botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1rem;
@@ -33,4 +35,22 @@ body{
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+}
+.botao_secundario { grid-template-columns: 50% 50%;
+    background-color: transparent;
+    border:2px solid var(--branco-principal);
+}
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+.container__caixa {
+    margin:0 6em;
 }
