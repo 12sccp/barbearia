@@ -1,19 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 /* Variaveis CSS*/
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-do-fundo: #00030C;
+
+    --font-principal: inter;
+    font-size: 16px;
+    font-weight: 400;
+
 }
 /* utilizando as variaveis */
 body {
     background-color: var(--cor-do-fundo);
     color: var(--branco-principal);
-    font-family: var(--fonte_principal);
+    font-family: var(--font_principal);
 }
 .principal {
     background-image: url("img/Background.png");
@@ -54,3 +56,4 @@ body {
 .container__caixa {
     margin:0 6em;
 }
+
